@@ -22,7 +22,7 @@ Sub FormatoInicialSCV_0()
 End Sub
 
 Function EstaVacio(xValor)
-    If xValor = "" Then
+    If xValor = "" Then 
         EstaVacio = True
     End If
     If xValor <> "" Then
